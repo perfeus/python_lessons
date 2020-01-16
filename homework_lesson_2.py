@@ -104,4 +104,4 @@
 # for i in str(integer_number):
 # if int(i) == 5:
 # counter += 1
-# print(counter)
+ print(counter)
