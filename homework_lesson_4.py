@@ -55,7 +55,8 @@ def rarest_letter(x, y):
         res = i[0]
     print(f"the most common name is {res[0]}")
 
-#в файле с логами найти дату самого позднего лога (по метке времени):
+
+# в файле с логами найти дату самого позднего лога (по метке времени):
 
 with open("log.txt", encoding="utf-8") as f:
     elements_list = [i.split(",")[0] for i in f]
