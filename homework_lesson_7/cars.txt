@@ -1,0 +1,8 @@
+Brand
+Model
+Year
+Fuelconsumption
+Mileage
+Color
+Gearbox
+Engine
