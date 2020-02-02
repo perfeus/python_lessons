@@ -80,6 +80,7 @@ class Deck:
         return card
 
         # ход компьютера
+
     def computer_try(self):
         print("ходит компьютер")
         counter = None
@@ -142,10 +143,10 @@ class Deck:
             return card
 
 
-player = Deck()
-computer = Deck()
-player.on_hand()
-computer.on_hand()
-player.player_try()
-computer.computer_try()
-
+if __name__ == "__main__":
+    player = Deck()
+    computer = Deck()
+    player.on_hand()
+    computer.on_hand()
+    player.player_try()
+    computer.computer_try()
