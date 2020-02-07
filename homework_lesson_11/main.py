@@ -47,6 +47,3 @@ if __name__ == "__main__":
     print("the length of the object:", len(apple))
     apple[2] = 55
     print("the length of the object:", len(apple))
-    for i in apple:
-        print(i)
-    for i in range(3):
